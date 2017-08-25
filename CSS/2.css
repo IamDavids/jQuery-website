@@ -1,0 +1,374 @@
+.detail {
+	width: 800px;
+	height: 555px;
+	border: 1px solid #aaa;
+}
+
+.detail-nav {
+	width:795px;
+	height:26px;
+	background-color: skyblue;
+	line-height:26px;
+	font-size:13px;
+	color:#fff;
+	font-weight:bold;
+	padding-left:5px;
+}
+
+.detail-left{
+	width:382px;
+	float:left;
+	
+	height:476px;
+	margin:10px;
+}
+
+ /* 放大镜部分 */
+ .extra {
+	position:relative;
+}
+
+
+ .extra .picture {
+  	position:relative;
+  	
+  }
+
+  .picture .mask {
+  	       width:112px;
+  	       height:112px;
+  	     background: rgba(177,233,66,0.4);
+  	     position:absolute;
+  	     top:0;
+  	     left:0;
+  	     display:none;
+  	     cursor:move;
+  }
+
+  .big-picture {
+  	width:310px;
+  	height:310px;
+  	position:absolute;
+  	top:0;
+  	left:320px;
+  	overflow:hidden;
+  	display:none;
+   border:1px solid #ccc
+
+  }
+
+
+
+
+
+
+.detail-left  img {
+	border:1px solid #aaa;
+	
+	
+}
+
+
+
+.detail-left p {
+	width:96px;
+	height:19px;
+	border:1px solid #aaa;
+	border-radius:20px;
+	line-height:21px;
+	padding-left:17px;
+	font-size:13px;
+	color:#888;
+	float:left;
+	margin:16px 98px;
+	position:relative;
+	margin-bottom:7px;
+	cursor:pointer;
+	
+}
+
+.bigpic a {
+	text-decoration:none;
+	color:#888;
+	position:absolute;
+
+}
+
+
+
+.detail-left p::before {
+	content:"";
+	background:url("../image/1.png") no-repeat ;
+	width:12px;
+	height:14px;
+	top:3px;
+	left:2px;
+	position:absolute;
+	margin-right:10px;
+
+	
+	}
+
+
+
+.picture3 a img {
+	width:60px;
+	margin-right:10px;
+	
+}
+	
+.juanjuan {
+	font-weight:bold;
+}
+
+	
+
+	
+
+
+
+/* 左边底部的区域 */
+.left-bott {
+	width:378px;
+	height:75px;
+	float:left;
+	margin-top:15px;
+	
+}
+.left-bott li {
+	float:left;
+	font-size:13px;
+	width:74px;
+	height:22px;
+	line-height:22px;
+	background-color:#f1f1f1;
+	margin-right:5px;
+	text-align:center;
+	border:#898989;
+	border:1px solid #aaa;
+	cursor:pointer;
+	
+}
+
+
+
+.left-bott  .nowli {
+	background-color: #6D84B4;
+}
+
+
+.left-bott textarea {
+	width:376px;
+	height:50px;
+	font-size:12px;
+	font-family:simsun;
+}
+
+.left-bott .text2 {
+	display:none;
+}
+
+ 
+	
+
+
+/* 右边部分了 */
+.right {
+	width:380px;
+	height:460px;
+	
+	float:left;
+	margin-top:25px;
+}
+.right h4 {
+	font-size:13px;
+}
+
+
+.right p {
+	font-size:12px;
+	font-family:"simsun";
+	line-height:20px;
+	
+}
+.right p span {
+	text-decoration:line-through;
+}
+
+.right-pic3 a img {
+	width:30px;
+	height:30px;
+	margin-right:5px;
+	border:1px solid #aaa;
+}
+
+.right-size {
+	margin-top:10px;
+	width:370px;
+	height:47px;
+
+
+}
+.right-size p {
+	font-size:13px;
+	font-weight:bold;
+}
+.right-size li {
+	float:left;
+	width:34px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	margin-right:10px;
+	border:1px solid #aaa;
+	font-size:14px;
+	color:black;
+	cursor:pointer;
+}
+.right-size li a {
+	color:black;
+}
+
+
+.chouchou {
+	background-color:#aaa;
+}
+
+.stro {
+	font-weight:bold;
+}
+
+
+.sele {
+	
+	margin-top:10px;
+	font-size:13px;
+}
+.stro {
+	margin:10px 0;
+}
+
+
+.score {
+	font-size:13px;
+	position:relative;
+	
+	
+}
+
+.score ul {
+	width:80px;
+	height:16px;
+	font-size:16px;
+	background:url("../image/star-matrix.gif") no-repeat 0px 0px;
+	top:0;
+	left:0;
+	position:relative;
+	cursor:pointer;
+}
+
+.score li a {
+	position:absolute;
+	width:16px;
+	height:16px;
+	text-decoration:none;
+	z-index:2;
+}
+	
+	
+
+.score .one a {
+	 left:0px;
+}
+
+.score .two a {
+	 left:16px;
+}
+
+.score .three a {
+	 left:32px;
+}
+
+.score .four a {
+	 left:48px;
+}
+
+.score .five a {
+	 left:64px;
+}
+
+.score li a:hover {
+	z-index:1;
+	width:80px;
+	height:16px;
+	overflow:hidden;
+	left:0;	
+	background: url(../images/star-matrix.gif) no-repeat 0 0
+}
+
+
+
+
+
+.score .one a:hover {
+	background:url("../image/star-matrix.gif") no-repeat 0px -96px;
+}
+
+.score .two a:hover {
+	background:url("../image/star-matrix.gif") no-repeat 0px -112px;
+}
+
+.score .three a:hover {
+	background:url("../image/star-matrix.gif") no-repeat 0px -128px;
+}
+
+.score .four a:hover {
+	background:url("../image/star-matrix.gif") no-repeat 0px -144px;
+}
+
+.score .five a:hover {
+	background:url("../image/star-matrix.gif") no-repeat 0px -160px;
+}
+
+.shopcar {
+	margin-top:40px;
+	
+}
+
+
+
+  	
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

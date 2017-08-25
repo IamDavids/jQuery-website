@@ -1,0 +1,379 @@
+ /* 页眉部分 */
+  .header {
+  	  width:100%;
+  	  height:82px;
+  	  background-color:skyblue;
+  	 
+  }
+
+ .header a  {
+  	   
+  	  float:left;
+  	 color:#fff;
+  	 font-size:35px;
+  	 margin:21px 10px 0px 10px;
+  	 font-weight:bolder;
+  	 
+  	  padding-bottom:0px;
+  	
+  }
+
+  .header a:hover{
+  	border-bottom:2px solid #fff;
+  	
+  }
+  .header-right {
+  	float:right;
+  	
+  	margin:12px 12px 0 0;
+  	width:130px;
+  	height:25px;
+  	padding-left:2px;
+  	background-color: #fff;
+  }
+  
+  .header-right ul li {
+  	float:left;
+  	margin:4px 0 5px 5px;
+  	cursor:pointer;
+  }
+
+  .header-right .li1 {
+  	 width:15px;
+  	 height:15px;
+  	background:url("../image/theme.gif") no-repeat 0px -14px;
+  	
+
+  }
+
+     .header-right .li2{
+  	width:15px;
+  	 height:15px;
+  	background:url("../image/theme.gif") no-repeat -20px 1px;
+  	
+  }
+
+  .header-right .li3{
+  	width:15px;
+  	 height:15px;
+  	background:url("../image/theme.gif") no-repeat -40px 1px;
+  	
+  }
+
+   .header-right .li4{
+  	width:15px;
+  	 height:15px;
+  	background:url("../image/theme.gif") no-repeat -60px 1px;
+  	
+  }
+
+   .header-right .li5{
+  	width:15px;
+  	 height:15px;
+  	background:url("../image/theme.gif") no-repeat -80px 1px;
+  	
+  }
+
+   .header-right .li6{
+  	width:15px;
+  	 height:15px;
+  	background:url("../image/theme.gif") no-repeat -100px 1px;
+  	
+  }
+
+
+
+
+
+  /* 导航栏部分 */
+  .nav {
+  	width:100%;
+  	height:34px;
+  	background-color:skyblue;
+  	margin:10px 0;
+  	line-height:34px;
+  
+  }
+  .nav li {
+  	float:left;
+  	margin:8px 8px 0px 6px;
+  	 width:48px;
+  	 height:20px;
+  	color:deeppink;
+  	background-color:#eeeeee;
+   position:relative;
+
+  	
+
+  }
+
+  .nav li a {
+   
+  	float:left;
+  	font-size:14px;
+  	color:#0287ca;
+  	  	
+  	  	margin-top:-7px;
+  	  	margin-left:9px;
+  	  	font-weight:700;
+
+  }
+  .nav li:last-child {
+  	 width:78px;
+  }
+
+  .nav  li ul {
+  	position:absolute;
+  	width:80px;
+  	
+    top:21px;
+  	left:-5px;
+  	background-color:#eeeeee;
+  	margin-right:5px;
+  	display:none;
+     z-index:100;
+
+  }
+
+  .nav  li ul li {
+  	  width:80px;
+  	  height:18px;
+  	  border-bottom:1px solid #bbb;
+  	  text-align:center;
+  	  margin:1px 1px 1px 1px;
+  	
+  }
+ 
+ .nav  li ul li:last-child {
+  	  border-bottom:none;
+  	
+  }
+ 
+  .nav  li ul li a {
+       
+        font-size:12px;
+       
+  }
+
+
+
+
+
+
+  /* 左边主体部分 */
+  .main-left {
+  	width:200px;
+  	border:1px solid #aaa;
+  	height:603px;
+
+  }
+  .main-left-class {
+  	height:26px;
+  	background-color:lightblue;
+  	line-height:26px;
+  	color:#fff;
+  	font-size:14px;
+  	font-weight:bold;
+  	padding-left:7px;
+  }
+
+  .main-left-items div {
+  	width:200px;
+  	height:142px;
+  	position:relative;
+  	
+  	
+  }
+
+
+  .main-left-items h3 {
+  	    width:190px;
+  	   height:26px;
+  	   border-bottom:1px solid #aaa;
+  	  margin-left:5px;
+  	   line-height:26px;
+  	   font-size:14px;
+  }
+ 
+  .main-left-items li {
+  	float:left;
+  	width:80px;
+  	height:27px;
+  	line-height:27px;
+  	margin-left:5px;
+  	
+
+   
+  }
+  .main-left-items li a {
+  	color: #0287ca;  
+  }
+
+  .main-left-items span {
+     position:absolute;
+     width:20px;
+     height:17px;
+     border-radius:8px 8px 8px 0px;
+     background-color:red;
+     color:#fff;
+     line-height:17px;  
+     text-align:center;
+     margin-left:0px;
+     margin-top:-5px;
+     font-size:12px;
+     font-weight:bold;
+
+
+
+ }
+  
+ 
+
+
+
+
+ 
+
+ /* 右边轮播图部分 */
+   .right-picture {
+  	   overflow:hidden;
+  	  width:586px;
+  	  height:150px;
+  	  border:1px solid #aaa;
+  	  position:relative;
+
+  }
+
+  .right-picture .list {
+  	position:absolute;
+  
+  	right:7px;
+  	
+  	bottom:7px;
+  }	 
+
+   .right-picture .list li {
+  	float:left;
+  	color:orange;
+  	width:16px;
+  	height:16px;
+  	border:1px solid orange;
+  	background-color:#fff;
+  	line-height:16px;
+  	text-align:center;
+  	font-size:12px;
+  	cursor:pointer;
+    font-family: Arial;
+   margin:3px 1px;  /* 这个是重点。显示这个框的上下调整宽度大小  */
+  }
+    
+   
+    
+
+  .right-picture .list .current {
+    background-color:orange;
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+     width:19px;
+     height:19px;
+  	line-height:19px;
+    margin:0 1px;    /* 这个是重点。显示这个框的上下调整宽度大小  */
+   }
+   
+
+
+
+
+
+
+/* 右面下边商品展示的部分 */
+
+.right-goods {
+	width:586px;
+	height:300px;
+	border:1px solid #aaa;
+	float:right;
+	border-top:10px solid #aaa;
+    border-bottom:10px solid #aaa;
+    overflow:hidden;
+}
+.right-goods-nav {
+	 height:30px;
+	 background-color:skyblue;
+	 border:1px solid #aaa;
+	 line-height:30px;
+}
+
+.right-goods-nav h4 {
+	float:left;
+	color:#fff;
+	margin-left:10px;
+}
+
+.right-goods-nav ul {
+	float:right;
+}   
+.right-goods-nav ul li {
+	float:left;
+	margin:5px 7px;
+	width:50px;
+	height:23px;
+	background-color:#aaa;
+	line-height:23px;
+	text-align:center;
+} 
+	
+
+.right-goods-nav ul li a {
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+}
+
+ 
+
+ /* 右边的T-shirt图案区 */
+
+ 
+ 
+ .right-goods-Tshirt li {
+ 	float:left;
+ 	width:124px;
+ 	height:124px;
+ 	margin:66px 10px;
+ }
+ 	
+ 	
+
+ .right-goods-Tshirt li p {
+ 	color:black;
+ 	font-family:simsun;
+ 	font-size:12px;
+ 	margin-top:-2px;
+ 	width:124px;
+   text-align:center;
+ }
+ 	
+   
+   
+
+ .right-goods-Tshirt li p span {
+ 	display:block;
+ }
+ 	
+	
+  	
+
+	
+	
+	
+
+
+
+
+
+
+
+
+

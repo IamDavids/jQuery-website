@@ -1,0 +1,40 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+
+.box {
+	width:802px;
+	margin:10px auto;
+
+}
+
+a {
+	text-decoration:none;
+
+}
+
+ul,li {
+	list-style:none;
+}
+
+.fl {
+	float:left;
+}
+
+.fr {
+	float:right;
+}
+
+.clearfix:after {
+  content:"";
+  display:block;
+  height:0;
+  line-height:0;
+  visibility:hidden;
+  clear:both;
+}
+.clearfix {
+	zoom:1;
+}
